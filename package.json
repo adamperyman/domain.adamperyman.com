@@ -1,7 +1,7 @@
 {
   "name": "domain.adamperyman.com",
   "version": "0.1.11",
-  "description": "adamperyman.com models and schemas",
+  "description": "adamperyman.com models and schemas.",
   "main": "index.js",
   "repository": "https://github.com/x0bile/domain.adamperyman.com.git",
   "author": "Adam Peryman <adam.peryman@gmail.com>",

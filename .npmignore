@@ -1,4 +1,3 @@
-node_modules
 .babelrc
 .eslintrc.yml
 .gitignore
@@ -6,5 +5,4 @@ node_modules
 src
 .travis.yml
 *.md
-.npmrc
 *.log
