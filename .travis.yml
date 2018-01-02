@@ -14,7 +14,8 @@ script:
   - yarn build
   - yarn test
 deploy:
-  provider: script
-  script: npm publish
+  provider: npm
+  email: $ADMIN_EMAIL
+  api_key: $NPM_TOKEN
   on:
     tags: true
