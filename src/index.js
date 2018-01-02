@@ -2,7 +2,7 @@ import { model, Schema } from 'mongoose'
 
 export const UserSchema = new Schema({
   _id: {
-    type: Schema.types.ObjectId,
+    type: Schema.Types.ObjectId,
     required: true
   },
   name: {
