@@ -1,6 +1,6 @@
 {
   "name": "domain.adamperyman.com",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "adamperyman.com models and schemas.",
   "main": "index.js",
   "repository": "https://github.com/x0bile/domain.adamperyman.com.git",
