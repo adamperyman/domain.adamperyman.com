@@ -15,6 +15,6 @@ script:
   - yarn test
 deploy:
   provider: script
-  script: yarn publish --new-version $TRAVIS_TAG
+  script: npm publish
   on:
     tags: true
