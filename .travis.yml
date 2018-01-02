@@ -15,6 +15,6 @@ script:
   - yarn test
 deploy:
   provider: script
-  script: yarn publish
+  script: yarn publish --tag $TRAVIS_TAG
   on:
     tags: true
