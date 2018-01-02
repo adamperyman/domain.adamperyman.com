@@ -1,0 +1,10 @@
+node_modules
+.babelrc
+.eslintrc.yml
+.gitignore
+*.lock
+src
+.travis.yml
+*.md
+.npmrc
+*.log
