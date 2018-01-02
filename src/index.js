@@ -1,8 +1,8 @@
-import { model, Schema } from 'mongoose'
+import mongoose from 'mongoose'
 
-export const UserSchema = new Schema({
+export const UserSchema = new mongoose.Schema({
   _id: {
-    type: Schema.Types.ObjectId,
+    type: mongoose.Schema.Types.ObjectId,
     required: true
   },
   name: {
@@ -11,4 +11,4 @@ export const UserSchema = new Schema({
   }
 })
 
-export const User = model('User', UserSchema)
+export const User = mongoose.model('User', UserSchema)
